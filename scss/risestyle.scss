@@ -1,6 +1,9 @@
 @import "fonts";
 @import "variables";
-
+@import "mixin";
+@import "map";
+$h1: map-get($map: $headers , $key: h1);
+$h2: map-get($map: $headers , $key: h2 );
 
 * {
 	margin: 0;
@@ -37,10 +40,20 @@ ul {
 }
 .contenido {
 	text-align: center;
+		h1{
+			font-size: $h1;
+		}
+	h2{
+		font-size: $h2;
+	}
+	
 }
 
 .container {
 	width: 100%;
+	img {
+		@include bordes;
+	}
 }
 
 
