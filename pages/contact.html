@@ -9,20 +9,21 @@
     <meta name="keywords" content="Contacto, estamos, cerca, tuyo, contas con nosotros, ayuda">
 <!-- Archivo CSS -->
     <link rel="stylesheet" href="../css/risestyle.css">
-
+<!-- Conexiones Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="shortcut icon" href="images/logorise-sf.png" type="image/x-icon">
+<!-- Iconos -->
     <script src="https://kit.fontawesome.com/8e1370f7a2.js" crossorigin="anonymous"></script>
 
     <title>Contactanos - Rise Tech</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../images/logorise-sf.png" width="14%" alt="Rise Technology"></a>
+        <a href="../index.html"><img src="../images/logorise-sf.png" alt="Rise Technology"></a>
     </header>
 
     <nav>
@@ -36,11 +37,35 @@
           </ul>
     </nav>
 
-    <section class="contenido">
-  
-   
-
-    </section>
+    <section class="contenido" style="padding: 25px;">
+      
+        <!-- Div Formulario -->
+        <div class="contact-form">
+            <!-- Formulario -->
+            <form method="get" action="msg.html">
+                <!-- Campos -->
+                <div data-wow-delay=".5s">
+                    <!-- Nombre -->
+                    <input type="text" name="name" id="name" required="required" class="form borcam" placeholder="Nombre y Apeliido" />
+                    <!-- Email -->
+                    <input type="email" name="email" id="email" required="required" class="form borcam"  placeholder="Email" />
+                    <!-- Asunto -->
+                    <input type="text" name="subject" id="subject" required="required" class="form borcam"  placeholder="Asunto" />
+                </div> <!-- Fin Div Campos -->
+                <!-- Area de Mensaje -->
+                <div data-wow-delay=".5s">
+                    <!-- Mensaje -->
+                    <textarea name="message" id="message" class="form textarea borcam"  placeholder="Mensaje"></textarea>
+                </div>  <!-- Fin Area Mensaje -->
+                <!-- Div Boton -->
+                <div >
+                    <button type="submit" id="submit" name="submit" class="form-btn semibold">Enviar Mensaje</button>
+                    <button type="reset" id="reset" name="reset" class="form-btn semibold">Limpiar</button> 
+                </div><!-- End Bottom Submit -->
+            </form>
+        </div><!-- Fin Formulario -->
+    
+ </section>
 
     <a href="https://wa.me/5491131276111" class="whatsapp" target="_blank"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
