@@ -1,14 +1,14 @@
 {
-  "name": "proyecto-sass",
+  "name": "proyecto-sass_proyecto-final_risetechnology",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina de tecnologia orientada al ofrecimiento de servicios y soluciones informáticas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/risestyle.scss css/risestyle.css",
 "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "lucas-llamanzarez",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
