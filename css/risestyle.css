@@ -16,7 +16,8 @@ h1 {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif; }
 
 header {
   width: 100%;
@@ -39,6 +40,9 @@ ul li a {
   color: #fff;
   text-decoration: none; }
 
+.navcustom {
+  background: #164884; }
+
 .contenido {
   text-align: center; }
   .contenido h1 {
@@ -47,7 +51,8 @@ ul li a {
     font-size: 2.5em; }
 
 .container {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 50px; }
   .container img {
     border: solid black;
     border-radius: 10px;

@@ -10,6 +10,7 @@ $h2: map-get($map: $headers , $key: h2 );
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
 }
 
 header {
@@ -42,6 +43,11 @@ ul {
 		}
 	}
 }
+
+.navcustom {
+	background: $color_bar_g;
+}
+
 .contenido {
 	text-align: center;
 		h1{
@@ -55,6 +61,7 @@ ul {
 
 .container {
 	width: 100%;
+	padding-bottom: 50px;
 	img {
 		@include bordes;
 	}
