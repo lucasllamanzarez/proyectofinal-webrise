@@ -49,6 +49,11 @@ ul li a {
     font-size: 4em; }
   .contenido h2 {
     font-size: 2.5em; }
+  .contenido p {
+    text-align: center justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px; }
 
 .container {
   width: 100%;
